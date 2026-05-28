@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime outputs
+temp_data/
+runs/
+logs/
+
+# Datasets and released artifacts
+data/raw_videos/
+data/annotated_images/
+data/pseudo_labels/
+data/train_val_test/
+data/weighing_records/
+data/model_weights/
+
+# Model weights and large binaries
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
