@@ -64,7 +64,9 @@ Piglet_weight/
 ## Data
 
 ```text
-data/
+通过网盘分享的文件：pics_3.zip
+链接: https://pan.baidu.com/s/1z6dUJCt5YbSGvXL1G3lB7w 提取码: qwer 
+--来自百度网盘超级会员v1的分享
 ```
 
 ## Deployment Scripts
@@ -158,9 +160,3 @@ pip install ultralytics opencv-python numpy torch
 ```
 
 The exact training environment should be documented here after the training code, dataset layout, and model weights are finalized.
-
-## Notes Before Public Release
-
-- Do not commit private camera credentials, internal IP addresses, or farm-identifying metadata.
-- Large video files and model weights should be tracked with Git LFS or released through a separate dataset archive.
-- If the dataset cannot be public, provide a data availability statement and a small example file showing the expected format.
